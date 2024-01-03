@@ -30,7 +30,7 @@ export default function AdminLayout({ children }: { children: ReactNode }) {
           Livros
         </Link>
       </ul>
-      <div className="p-8">{children}</div>
+      <div className="w-full">{children}</div>
     </main>
   );
 }
